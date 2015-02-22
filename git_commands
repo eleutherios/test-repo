@@ -1,0 +1,24 @@
+git log --stat
+git diff identifier1 identifier2
+git checkout -> restoring previous version 
+git init 
+git status -> get the status of the current repository 
+git reset -> remove files from staging area
+
+
+
+	Complete the following steps
+		- add the original repository as a remote in your clone (upstream)
+		- pull the master branch from the original repo
+		- merge the branch into your change branch
+		- push you change branch to you fork
+		$ git remote add upstream url
+		$ git checkout master
+		$ git pull upstream master
+		$ git checkout sto-drop-roll
+		$ git merge master stop-drop-roll
+		$ git add files
+		$ git commit 
+		$ git push origin stop-drop-roll
+
+
